@@ -4,9 +4,10 @@
     box-sizing: border-box;
 }
 section {
+    height: 100vh;
     border: 3px solid rgb(122, 5, 5);
     display: grid;
-    grid-template-rows: repeat(4, 230px);
+    grid-template-rows: repeat(4, 1fr);
     grid-template-columns: repeat(4, 1fr);
 
 }
