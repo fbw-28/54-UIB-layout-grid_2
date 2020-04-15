@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 100px);
+}
+
+div.item {
+    border: 3px solid darkblue;
+    font-size: 24px;
+    text-align: center;
+}
+
+.two {
+    background-color: rgb(116, 114, 249);
+    grid-column: 2 / span 2;
+    ;
+}
+
+.six {
+    background-color: rgb(58, 146, 11);
+    grid-column: 3 / span 2;
+}
+
+.nine {
+    background-color: rgb(252, 178, 74);
+    grid-column: 2 / 3;
+    grid-row: 3 / span 2;
+}
+
+.ten {
+    background-color: rgb(140, 63, 129);
+    grid-column: 4 / 5;
+    grid-row: 3 / span 2;
+}
