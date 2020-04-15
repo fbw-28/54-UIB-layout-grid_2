@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section {
+    height: 100vh;
+    border: 3px solid rgb(122, 5, 5);
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+
+}
+div {
+    border: 3px solid blue;
+    font-size: 2em;
+    text-align: center;
+}
+.item2 {
+    grid-column: 2 / 4;
+    background-color: blue;
+}
+.item6 {
+    grid-column: 3 / 5;
+    background-color: green;
+}
+.item9 {
+    grid-row: 3 / 5;
+    grid-column: 2 / 3;
+    background-color: orange;
+}
+.item10 {
+    grid-row: 3 / 5;
+    grid-column: 4 /5;
+    background-color: purple;
+}
