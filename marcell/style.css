@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    height: 500px;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    border: 2px solid red;
+    font-size: 1.5rem;
+
+}
+
+.child {
+    text-align: center;
+    border: 2px solid purple;
+}
+
+.item-2 {
+    grid-column: 2 / span 2;
+    background-color: purple;
+}
+
+.item-6 {
+    grid-column: 3 / span 2;
+    background-color: green;
+}
+
+.item-9 {
+    grid-row: 3 / span 2;
+    grid-column: 2;
+    background-color: yellow;
+}
+
+.item-10 {
+    grid-row: 3 / span 2;
+    grid-column: 4;
+    background-color: blue;
+}
