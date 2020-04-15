@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    font-size: 3em ;
+    text-align: center;
+    border: 5px solid red;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.items {
+    background-color: white;
+    border: solid blue 5px;
+}
+
+.i2 { 
+    grid-column: 2 / 4;  
+    background-color: blue;
+}
+
+.i6 {
+    grid-column: 3 / 5;
+    background-color: green;
+}
+
+.i9 {
+    grid-area: 3 / 2 / 5 / 3;
+    background-color: orange;
+}
+
+.i10 {
+    grid-area: 3 / 4 / 5 / 5;
+    background-color: purple;
+}
