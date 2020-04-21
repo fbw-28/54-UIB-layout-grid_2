@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+    width: 100%;
+    height: 100%;
+    border: 3px solid red ;
+}
+.box {
+    text-align: center;
+    border: 3px solid blue;
+}
+
+.two{
+    grid-column: 2/4;
+    grid-row: 1/2 ;
+    background-color: blue;
+}
+.six{
+    grid-column: 3/5;
+    grid-row: 2/3 ;
+    background-color: green;  
+}
+.nine{
+    grid-column: 2/3;
+    grid-row: 3/5 ;
+    background-color: yellow;   
+}
+.ten{
+    grid-row: 3/5;
+    grid-column: 4/5;
+    background-color: violet;  
+} */
